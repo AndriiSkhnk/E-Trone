@@ -1,0 +1,20 @@
+.CarElectronics {
+    margin-top: 70px;
+}
+
+@media  screen and (max-width: 550px) {
+
+    .CarElectronics {
+        margin-top: 100px;
+    }
+    
+}
+
+
+@media  screen and (max-width: 422px) {
+
+    .CarElectronics {
+        margin-top: 30px;
+    }
+    
+}

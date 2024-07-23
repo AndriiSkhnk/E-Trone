@@ -1,0 +1,20 @@
+.ComputersTablets {
+    margin-top: 70px;
+}
+
+@media  screen and (max-width: 550px) {
+
+    .ComputersTablets {
+        margin-top: 100px;
+    }
+    
+}
+
+
+@media  screen and (max-width: 422px) {
+
+    .ComputersTablets {
+        margin-top: 30px;
+    }
+    
+}

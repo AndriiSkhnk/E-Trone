@@ -1,0 +1,20 @@
+.CellPhones {
+    margin-top: 70px;
+}
+
+@media  screen and (max-width: 550px) {
+
+    .CellPhones {
+        margin-top: 100px;
+    }
+    
+}
+
+
+@media  screen and (max-width: 422px) {
+
+    .CellPhones {
+        margin-top: 30px;
+    }
+    
+}

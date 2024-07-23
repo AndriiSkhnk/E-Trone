@@ -1,0 +1,43 @@
+nav {
+    width: 100%;
+    position: fixed;
+    background-color: #CDE2F5;
+    padding: 12px 0px;
+}
+
+.navigation a {
+    color: #686868;
+    transition: .2s linear;
+}
+
+.navigation a:hover {
+    color: rgb(156, 156, 156);
+}
+
+.container {
+    justify-content: start;
+}
+
+.navigation {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    text-align: left;
+}
+
+.navigation li {
+    cursor: pointer;
+    font-size: 14px;
+    color: #686868;
+}
+
+
+
+@media  screen and (max-width: 422px) {
+
+    nav {
+        position: inherit;
+    }
+
+}

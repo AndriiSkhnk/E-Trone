@@ -1,0 +1,205 @@
+.product-page {
+    margin-top: 100px;
+    display: flex;
+}
+
+.page-product-image {
+    display: flex;
+    align-items: center;
+}
+
+.page-product-image img {
+    max-width: 654px;
+    max-height: 450px;
+}
+
+.page-product-info {
+    margin-left: 100px;
+}
+
+.info__description {
+    max-width: 490px;
+}
+
+.description__MS {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.info__model, .info__sku {
+    font-size: 16px;
+    font-weight: 400;
+    color: #A5A5A5;
+}
+
+.info__price {
+    margin-top: 30px;
+}
+
+.real-price {
+    font-size: 28px;
+    font-weight: 700;
+    color: #C42542;
+}
+
+.price__save {
+    display: inline-block;
+    background-color: #62279D;
+    padding: 5px 4px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.price__was {
+    margin-top: 7px;
+    font-size: 14px;
+    color: #A5A5A5;
+}
+
+.shipping-method {
+    margin-top: 40px;
+    display: flex;
+    gap: 25px;
+}
+
+.pickup, .shipping {
+    background: transparent;
+    width: 150px;
+    padding: 15px 0px 15px 20px;
+    border: 2px solid #A5A5A5;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.method-title {
+    font-size: 13px;
+    font-weight: 600;
+    margin: 5px 0px 40px 0px;
+}
+
+.ready-by {
+    text-align: left;
+}
+
+span {
+    font-weight: 700;
+}
+
+.addToCart-btn {
+    margin-top: 40px;
+    padding: 10px 100px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    background-color: #62279D;
+}
+
+
+
+@media  screen and (max-width: 1160px) {
+
+    .page-product-info {
+        margin-left: 50px;
+    }
+
+    
+}
+
+@media  screen and (max-width: 1115px) {
+
+    .d-f {
+        flex-direction: column;
+    }
+
+    .page-product-image {
+        display: flex;
+        justify-content: center;
+    }
+
+    .page-product-image img {
+        max-width: 454px;
+        max-height: 300px;
+    }
+
+    .page-product-info {
+        margin: 50px 0px 0px 0px;
+    }
+
+    .info__description {
+        max-width: 550px;
+        font-size: 22px;
+    }
+
+    .info__model, .info__sku {
+        font-size: 14px;
+    }
+
+    .real-price {
+        font-size: 24px;
+    }
+
+    .price__save {
+        font-size: 14px;
+    }
+
+    .addToCart-btn {
+        width: 100%;
+    }
+    
+
+}
+
+
+@media  screen and (max-width: 580px) {
+
+    .page-product-image img {
+        max-width: 454px;
+        max-height: 250px;
+    }
+
+    .info__description {
+        max-width: 454px;
+        font-size: 20px;
+    }
+
+
+
+}
+
+@media  screen and (max-width: 550px) {
+
+    .product-page {
+        margin-top: 120px;
+    }
+
+}
+
+@media  screen and (max-width: 455px) {
+
+    .page-product-image img {
+        max-width: 404px;
+        max-height: 200px;
+    }
+
+    
+
+}
+
+
+@media  screen and (max-width: 422px) {
+
+    .product-page {
+        margin-top: 43px;
+    }
+
+}
