@@ -1,7 +1,7 @@
 export let dealsList = [
     {
         id:19,
-        image: "/src/images/Deals/1.jpg",
+        image: "./src/images/Deals/1.jpg",
         description: "Dell Inspiron 15 Touch Screen Laptop – Intel Core i5 – 8GB – 512GB SSD - Carbon Black",
         category: "Computers & Tablets",
         price: 208.99,
@@ -11,7 +11,7 @@ export let dealsList = [
     },
     {
         id:2,
-        image: "/src/images/Deals/2.jpg",
+        image: "./src/images/Deals/2.jpg",
         description: "Apple - 10.2-Inch iPad (9th Generation) with Wi-Fi - 64GB - Silver",
         category: "Computers & Tablets",
         price: 350.99,
@@ -21,7 +21,7 @@ export let dealsList = [
     },
     {
         id:3,
-        image: "/src/images/Deals/3.jpg",
+        image: "./src/images/Deals/3.jpg",
         description: "Apple - AirPods Pro (2nd generation) with MagSafe Case (USB‑C) - White",
         category: "Audio",
         price: 150.99,
@@ -31,7 +31,7 @@ export let dealsList = [
     },
     {
         id:4,
-        image: "/src/images/Deals/4.jpg",
+        image: "./src/images/Deals/4.jpg",
         description: "MacBook Air 13-inch Laptop - Apple M3 chip - 16GB Memory - 512GB SSD (Latest Model) - Midnight",
         category: "Computers & Tablets",
         price: 1013.39,
