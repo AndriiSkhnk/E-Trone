@@ -2,7 +2,7 @@ import './index.css'
 import { HomePage } from './components/Home/HomePage';
 import { Header } from './components/Header/Header';
 import { Footer } from './components/Footer/Footer';
-import { HashRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { Navigation } from './components/Navigation/Navigation';
 import { ComputersAndTablets } from './components/Computers&Tablets/Computers&Tablets';
 import { CellPhones } from './components/CellPhones/CellPhones';
@@ -16,7 +16,7 @@ function App() {
 
   return (
       <div className='wrap'>
-        <HashRouter>
+        <BrowserRouter>
         <Header />
         <Navigation />
         <Routes>
@@ -29,7 +29,7 @@ function App() {
             <Route path='/product/:source/:id' element={<ProductPage/>}/>
         </Routes>
         <Footer />  
-        </HashRouter>
+        </BrowserRouter>
       </div>
   );
 }
