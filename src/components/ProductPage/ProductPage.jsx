@@ -11,6 +11,7 @@ import './ProductPage.css'
 
 
 
+
 export const ProductPage = () => {
 
     const { source, id } = useParams();
@@ -67,7 +68,7 @@ export const ProductPage = () => {
                                 <p className='ready-by'>Ready: <br/> <span>Sunday</span></p>
                             </button>
                             <button className="shipping">
-                                <img src="/src/images/Shipping-method/pickup.svg" alt="shipping" />
+                                <img src="/src/images/Shipping-method/shipping.svg" alt="shipping" />
                                 <p className="method-title">Shipping</p>
                                 <p className='ready-by'>Ready: <br/> <span>Tommorow</span></p>
                             </button>

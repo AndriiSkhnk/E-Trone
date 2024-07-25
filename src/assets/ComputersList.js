@@ -1,7 +1,7 @@
 export let ComputersList = [
     {
         id:1,
-        image: "./src/images/Computers/1.jpg",
+        image: "/src/images/Computers/1.jpg",
         description: 'ASUS - ROG Zephyrus G16 16" 165Hz Gaming Laptop FHD-Intel 13th Gen Core i7 with 16GB Memory-NVIDIA GeForce RTX 4070-512GB SSD - Eclipse Gray',
         category: "Computers & Tablets",
         price: 1299.99,
@@ -11,7 +11,7 @@ export let ComputersList = [
     },
     {
         id:2,
-        image: "./src/images/Computers/2.jpg",
+        image: "/src/images/Computers/2.jpg",
         description: 'Samsung - Odyssey Neo G8 32" Curved 4K UHD FreeSync Premium Pro & G-Sync Compatible 240Hz 1ms Gaming Monitor - Black',
         category: "Computers & Tablets",
         price: 699.99,
@@ -21,7 +21,7 @@ export let ComputersList = [
     },
     {
         id:3,
-        image: "./src/images/Computers/3.jpg",
+        image: "/src/images/Computers/3.jpg",
         description: 'CyberPowerPC - Gamer Master Gaming Desktop - AMD Ryzen 5 5500 - 16GB Memory - NVIDIA GeForce RTX 4060 8GB - 1TB SSD - Black',
         category: "Computers & Tablets",
         price: 675.99,
@@ -31,7 +31,7 @@ export let ComputersList = [
     },
     {
         id:4,
-        image: "./src/images/Computers/4.jpg",
+        image: "/src/images/Computers/4.jpg",
         description: 'Geek Squad Certified Refurbished MacBook Air 13.6" Laptop - Apple M2 chip - 8GB Memory - 256GB SSD - Midnight',
         category: "Computers & Tablets",
         price: 625.99,
@@ -41,7 +41,7 @@ export let ComputersList = [
     },
     {
         id:5,
-        image: "./src/images/Computers/5.jpg",
+        image: "/src/images/Computers/5.jpg",
         description: 'ASUS - Vivobook Pro 15 OLED Laptop - Intel Core Ultra 7 WITH 16GB Memory - NVIDIA GeForce RTX 3050 - 1TB SSD - Earl Gray',
         category: "Computers & Tablets",
         price: 1000.99,
@@ -51,7 +51,7 @@ export let ComputersList = [
     },
     {
         id:6,
-        image: "./src/images/Computers/6.jpg",
+        image: "/src/images/Computers/6.jpg",
         description: 'GIGABYTE - 16" 165Hz Gaming Laptop IPS - Intel i7-13620H with 32GB RAM - NVIDIA GeForce RTX 4060 - 1TB SSD - Black',
         category: "Computers & Tablets",
         price: 999.99,
@@ -61,7 +61,7 @@ export let ComputersList = [
     },
     {
         id:7,
-        image: "./src/images/Computers/7.jpg",
+        image: "/src/images/Computers/7.jpg",
         description: 'Dell - Precision 5540 15.6" Refurbished Laptop - Intel 9th Gen Core i7 with 32GB Memory - NVIDIA Quadro T1000 - 1TB SSD - Silver',
         category: "Computers & Tablets",
         price: 699.99,
@@ -71,7 +71,7 @@ export let ComputersList = [
     },
     {
         id:8,
-        image: "./src/images/Computers/8.jpg",
+        image: "/src/images/Computers/8.jpg",
         description: 'Dell G15 15.6" FHD 120Hz Gaming Laptop - Intel Core i7 16GB Memory - NVIDIA GeForce RTX 4060 - 1TB SSD - Dark Shadow Gray w/ Black Thermal Shelf',
         category: "Computers & Tablets",
         price: 879.99,

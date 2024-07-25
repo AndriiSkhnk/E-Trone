@@ -47,8 +47,8 @@ export const Footer = () => {
                     <div className="footer-title">Connect With Us:</div>
                     <div className="footer-links">
                         <div className="social-links">
-                            <a href="#"><img src="./src/images/Footer/facebook.svg" alt="facebook" /></a>
-                            <a href="#"><img src="./src/images/Footer/twitter.svg" alt="twitter" /></a>
+                            <a href="#"><img src="/src/images/Footer/facebook.svg" alt="facebook" /></a>
+                            <a href="#"><img src="/src/images/Footer/twitter.svg" alt="twitter" /></a>
                         </div>
                     </div>
                 </div>

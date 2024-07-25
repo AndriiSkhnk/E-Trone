@@ -1,7 +1,7 @@
 export let AudioList = [
     {
         id:1,
-        image: "./src/images/Audio/1.jpg",
+        image: "/src/images/Audio/1.jpg",
         description: 'Apple - Geek Squad Certified Refurbished AirPods (3rd generation) with Lightning Charging Case - White',
         category: "Audio",
         price: 99.99,
@@ -11,7 +11,7 @@ export let AudioList = [
     },
     {
         id:2,
-        image: "./src/images/Audio/1.jpg",
+        image: "/src/images/Audio/1.jpg",
         description: 'Apple - Geek Squad Certified Refurbished AirPods (3rd generation) with Lightning Charging Case - White',
         category: "Audio",
         price: 99.99,
@@ -21,7 +21,7 @@ export let AudioList = [
     },
     {
         id:3,
-        image: "./src/images/Audio/1.jpg",
+        image: "/src/images/Audio/1.jpg",
         description: 'Apple - Geek Squad Certified Refurbished AirPods (3rd generation) with Lightning Charging Case - White',
         category: "Audio",
         price: 99.99,
@@ -31,7 +31,7 @@ export let AudioList = [
     },
     {
         id:4,
-        image: "./src/images/Audio/1.jpg",
+        image: "/src/images/Audio/1.jpg",
         description: 'Apple - Geek Squad Certified Refurbished AirPods (3rd generation) with Lightning Charging Case - White',
         category: "Audio",
         price: 99.99,
@@ -41,7 +41,7 @@ export let AudioList = [
     },
     {
         id:5,
-        image: "./src/images/Audio/1.jpg",
+        image: "/src/images/Audio/1.jpg",
         description: 'Apple - Geek Squad Certified Refurbished AirPods (3rd generation) with Lightning Charging Case - White',
         category: "Audio",
         price: 99.99,
@@ -51,7 +51,7 @@ export let AudioList = [
     },
     {
         id:6,
-        image: "./src/images/Audio/1.jpg",
+        image: "/src/images/Audio/1.jpg",
         description: 'Apple - Geek Squad Certified Refurbished AirPods (3rd generation) with Lightning Charging Case - White',
         category: "Audio",
         price: 99.99,
@@ -61,7 +61,7 @@ export let AudioList = [
     },
     {
         id:7,
-        image: "./src/images/Audio/1.jpg",
+        image: "/src/images/Audio/1.jpg",
         description: 'Apple - Geek Squad Certified Refurbished AirPods (3rd generation) with Lightning Charging Case - White',
         category: "Audio",
         price: 99.99,
@@ -71,7 +71,7 @@ export let AudioList = [
     },
     {
         id:8,
-        image: "./src/images/Audio/1.jpg",
+        image: "/src/images/Audio/1.jpg",
         description: 'Apple - Geek Squad Certified Refurbished AirPods (3rd generation) with Lightning Charging Case - White',
         category: "Audio",
         price: 99.99,

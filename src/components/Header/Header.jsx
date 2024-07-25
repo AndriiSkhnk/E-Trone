@@ -14,16 +14,16 @@ export const Header = () => {
                     <input type="text" placeholder='What can we help you find today?' />
                     <div className="header__search-button">
                         <button className='search-button'>
-                            <img src="./src/images/Header/search-btn.svg" alt="search-btn" />
+                            <img src="/public.img.1.png" alt="search-btn" />
                         </button>
                     </div>
                 </div>
                 <div className="header__btns">
                     <div className="cart">
-                        <a href="#"><img src="./src/images/Header/cart-icon.svg" alt="cart" /></a>
+                        <a href="#"><img src="/src/images/Header/cart-icon.svg" alt="cart" /></a>
                     </div>
                     <div className="account">
-                        <a href="#"><img src="./src/images/Header/acc-icon.svg" alt="account" /></a>
+                        <a href="#"><img src="/src/images/Header/acc-icon.svg" alt="account" /></a>
                     </div>
                 </div>
             </div>
