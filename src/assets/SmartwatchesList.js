@@ -1,7 +1,7 @@
 export let SmartwatchesList = [
     {
         id:1,
-        image: "/src/images/Smartwatches/1.jpg",
+        image: "./images/Smartwatches/1.jpg",
         description: 'Apple Watch Series 9 GPS + Cellular 45mm Stainless Steel Case with Gold Milanese Loop - Gold',
         category: "Smartwatches",
         price: 639,
@@ -11,7 +11,7 @@ export let SmartwatchesList = [
     },
     {
         id:2,
-        image: "/src/images/Smartwatches/2.jpg",
+        image: "./images/Smartwatches/2.jpg",
         description: 'Samsung - Galaxy Watch6 Aluminum Smartwatch 44mm BT - Graphite',
         category: "Smartwatches",
         price: 200.99,
@@ -21,7 +21,7 @@ export let SmartwatchesList = [
     },
     {
         id:3,
-        image: "/src/images/Smartwatches/3.jpg",
+        image: "./images/Smartwatches/3.jpg",
         description: 'Samsung - Galaxy Watch6 Aluminum Smartwatch 44mm BT - GraphiteGoogle - Pixel Watch 2 Matte Black Smartwatch with Obsidian Active Band LTE - Matte Black',
         category: "Smartwatches",
         price: 330.99,
@@ -31,7 +31,7 @@ export let SmartwatchesList = [
     },
     {
         id:4,
-        image: "/src/images/Smartwatches/4.jpg",
+        image: "./images/Smartwatches/4.jpg",
         description: 'Fossil - Geek Squad Certified Refurbished Q Marshal Smartwatch 45mm Stainless Steel - Black',
         category: "Smartwatches",
         price: 205.99,
@@ -41,7 +41,7 @@ export let SmartwatchesList = [
     },
     {
         id:5,
-        image: "/src/images/Smartwatches/4.jpg",
+        image: "./images/Smartwatches/4.jpg",
         description: 'Fossil - Geek Squad Certified Refurbished Q Marshal Smartwatch 45mm Stainless Steel - Black',
         category: "Smartwatches",
         price: 205.99,
@@ -51,7 +51,7 @@ export let SmartwatchesList = [
     },
     {
         id:6,
-        image: "/src/images/Smartwatches/4.jpg",
+        image: "./images/Smartwatches/4.jpg",
         description: 'Fossil - Geek Squad Certified Refurbished Q Marshal Smartwatch 45mm Stainless Steel - Black',
         category: "Smartwatches",
         price: 205.99,
@@ -61,7 +61,7 @@ export let SmartwatchesList = [
     },
     {
         id:7,
-        image: "/src/images/Smartwatches/4.jpg",
+        image: "./images/Smartwatches/4.jpg",
         description: 'Fossil - Geek Squad Certified Refurbished Q Marshal Smartwatch 45mm Stainless Steel - Black',
         category: "Smartwatches",
         price: 205.99,
@@ -71,7 +71,7 @@ export let SmartwatchesList = [
     },
     {
         id:8,
-        image: "/src/images/Smartwatches/4.jpg",
+        image: "./images/Smartwatches/4.jpg",
         description: 'Fossil - Geek Squad Certified Refurbished Q Marshal Smartwatch 45mm Stainless Steel - Black',
         category: "Smartwatches",
         price: 205.99,

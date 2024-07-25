@@ -1,7 +1,7 @@
 export let CarElectronicsList = [
     {
             id:1,
-            image: "/src/images/CarElectronics/1.jpg",
+            image: "./images/CarElectronics/1.jpg",
             description: 'iOttie - Velox MagSafe Compatible Magnetic Wireless Charging Dash & Windshield Mount - Dark Blue',
             category: "Car Electronics",
             price: 51.99,
@@ -11,7 +11,7 @@ export let CarElectronicsList = [
     }, 
     {
         id:2,
-        image: "/src/images/CarElectronics/1.jpg",
+        image: "./images/CarElectronics/1.jpg",
         description: 'iOttie - Velox MagSafe Compatible Magnetic Wireless Charging Dash & Windshield Mount - Dark Blue',
         category: "Car Electronics",
         price: 51.99,
@@ -21,7 +21,7 @@ export let CarElectronicsList = [
     },
     {
         id:3,
-        image: "/src/images/CarElectronics/1.jpg",
+        image: "./images/CarElectronics/1.jpg",
         description: 'iOttie - Velox MagSafe Compatible Magnetic Wireless Charging Dash & Windshield Mount - Dark Blue',
         category: "Car Electronics",
         price: 51.99,
@@ -31,7 +31,7 @@ export let CarElectronicsList = [
     },
     {
         id:4,
-        image: "/src/images/CarElectronics/1.jpg",
+        image: "./images/CarElectronics/1.jpg",
         description: 'iOttie - Velox MagSafe Compatible Magnetic Wireless Charging Dash & Windshield Mount - Dark Blue',
         category: "Car Electronics",
         price: 51.99,
@@ -41,7 +41,7 @@ export let CarElectronicsList = [
     },
     {
         id:5,
-        image: "/src/images/CarElectronics/1.jpg",
+        image: "./images/CarElectronics/1.jpg",
         description: 'iOttie - Velox MagSafe Compatible Magnetic Wireless Charging Dash & Windshield Mount - Dark Blue',
         category: "Car Electronics",
         price: 51.99,
@@ -51,7 +51,7 @@ export let CarElectronicsList = [
     },
     {
         id:6,
-        image: "/src/images/CarElectronics/1.jpg",
+        image: "./images/CarElectronics/1.jpg",
         description: 'iOttie - Velox MagSafe Compatible Magnetic Wireless Charging Dash & Windshield Mount - Dark Blue',
         category: "Car Electronics",
         price: 51.99,
@@ -61,7 +61,7 @@ export let CarElectronicsList = [
     },
     {
         id:7,
-        image: "/src/images/CarElectronics/1.jpg",
+        image: "./images/CarElectronics/1.jpg",
         description: 'iOttie - Velox MagSafe Compatible Magnetic Wireless Charging Dash & Windshield Mount - Dark Blue',
         category: "Car Electronics",
         price: 51.99,
@@ -71,7 +71,7 @@ export let CarElectronicsList = [
     },
     {
         id:8,
-        image: "/src/images/CarElectronics/1.jpg",
+        image: "./images/CarElectronics/1.jpg",
         description: 'iOttie - Velox MagSafe Compatible Magnetic Wireless Charging Dash & Windshield Mount - Dark Blue',
         category: "Car Electronics",
         price: 51.99,

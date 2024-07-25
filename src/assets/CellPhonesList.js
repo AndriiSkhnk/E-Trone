@@ -1,7 +1,7 @@
 export let CellPhonesList = [
     {
         id:1,
-        image: "/src/images/CellPhones/1.jpg",
+        image: "./images/CellPhones/1.jpg",
         description: 'Apple - iPhone 13 5G 128GB (Unlocked) - Midnight',
         category: "Cell Phones",
         price: 529.99,
@@ -11,7 +11,7 @@ export let CellPhonesList = [
     },
     {
         id:2,
-        image: "/src/images/CellPhones/2.jpg",
+        image: "./images/CellPhones/2.jpg",
         description: 'Apple - iPhone SE (3rd Generation) 64GB (Unlocked) - Black',
         category: "Cell Phones",
         price: 429.99,
@@ -21,7 +21,7 @@ export let CellPhonesList = [
     },
     {
         id:3,
-        image: "/src/images/CellPhones/3.jpg",
+        image: "./images/CellPhones/3.jpg",
         description: 'Samsung - Pre-Owned Galaxy A03s 32GB (Unlocked) - Black',
         category: "Cell Phones",
         price: 100.99,
@@ -31,7 +31,7 @@ export let CellPhonesList = [
     },
     {
         id:4,
-        image: "/src/images/CellPhones/4.jpg",
+        image: "./images/CellPhones/4.jpg",
         description: 'Samsung - Galaxy A35 5G 128GB (Unlocked) - Awesome Navy',
         category: "Cell Phones",
         price: 333.99,
@@ -41,7 +41,7 @@ export let CellPhonesList = [
     },
     {
         id:5,
-        image: "/src/images/CellPhones/1.jpg",
+        image: "./images/CellPhones/1.jpg",
         description: 'Apple - iPhone 13 5G 128GB (Unlocked) - Midnight',
         category: "Cell Phones",
         price: 529.99,
@@ -51,7 +51,7 @@ export let CellPhonesList = [
     },
     {
         id:6,
-        image: "/src/images/CellPhones/1.jpg",
+        image: "./images/CellPhones/1.jpg",
         description: 'Apple - iPhone 13 5G 128GB (Unlocked) - Midnight',
         category: "Cell Phones",
         price: 529.99,
@@ -61,7 +61,7 @@ export let CellPhonesList = [
     },
     {
         id:7,
-        image: "/src/images/CellPhones/1.jpg",
+        image: "./images/CellPhones/1.jpg",
         description: 'Apple - iPhone 13 5G 128GB (Unlocked) - Midnight',
         category: "Cell Phones",
         price: 529.99,
@@ -71,7 +71,7 @@ export let CellPhonesList = [
     },
     {
         id:8,
-        image: "/src/images/CellPhones/1.jpg",
+        image: "./images/CellPhones/1.jpg",
         description: 'Apple - iPhone 13 5G 128GB (Unlocked) - Midnight',
         category: "Cell Phones",
         price: 529.99,
