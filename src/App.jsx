@@ -16,8 +16,8 @@ function App() {
 
 
   return (
-    <Router>
       <div className='wrap'>
+        <Router>
         <Header />
         <Navigation />
         <Routes>
@@ -30,8 +30,8 @@ function App() {
             <Route path='/product/:source/:id' element={<ProductPage/>}/>
         </Routes>
         <Footer />  
+        </Router>
       </div>
-    </Router>
   );
 }
 
