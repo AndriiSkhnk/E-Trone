@@ -8,7 +8,7 @@ export const Header = () => {
         <div className="container">
             <div className="header-content">
                 <div className="header__logo">
-                    <h1><Link className='logoLink' to="/E-Trone/">E-Tron</Link></h1>
+                    <h1><Link className='logoLink' to="/">E-Tron</Link></h1>
                 </div>
                 <div className="header__search">
                     <input type="text" placeholder='What can we help you find today?' />
