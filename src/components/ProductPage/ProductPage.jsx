@@ -68,14 +68,14 @@ export const ProductPage = () => {
                                 <p className='ready-by'>Ready: <br/> <span>Sunday</span></p>
                             </button>
                             <button className="shipping">
-                                <img src="/src/images/Shipping-method/shipping.svg" alt="shipping" />
+                                <img src="./images/Shipping-method/shipping.svg" alt="shipping" />
                                 <p className="method-title">Shipping</p>
                                 <p className='ready-by'>Ready: <br/> <span>Tommorow</span></p>
                             </button>
                         </div>
                     </div>
                     <button className="addToCart-btn">
-                        <img src="/src/images/Header/cart-icon.svg" alt="Add To Cart" />
+                        <img src="./images/Header/cart-icon.svg" alt="Add To Cart" />
                         <p>Add to Cart</p>
                     </button>
                 </div>
