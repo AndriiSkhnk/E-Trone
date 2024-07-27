@@ -17,9 +17,9 @@ function App() {
 
   return (
       <div className='wrap'>
-        <Router>
         <Header />
         <Navigation />
+        <Router>
         <Routes>
             <Route path='/E-Trone/' element={<HomePage />} />
             <Route path='/Computers&Tablets' element={<ComputersAndTablets/>}/>
