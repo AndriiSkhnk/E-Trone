@@ -16,7 +16,7 @@ function App() {
 
   return (
       <div className='wrap'>
-        <BrowserRouter>
+        <BrowserRouter basename='/E-Trone'>
         <Header />
         <Navigation />
         <Routes>
