@@ -63,7 +63,7 @@ export const ProductPage = () => {
                         <p className='price__was'>Was: ${product.was}</p>
                         <div className="shipping-method">
                             <button className="pickup">
-                                <img src="/src/images/Shipping-method/pickup.svg" alt="pickup" />
+                                <img src="./images/Shipping-method/pickup.svg" alt="pickup" />
                                 <p className="method-title">Pickup</p>
                                 <p className='ready-by'>Ready: <br/> <span>Sunday</span></p>
                             </button>

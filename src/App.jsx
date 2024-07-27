@@ -21,7 +21,7 @@ function App() {
         <Header />
         <Navigation />
         <Routes>
-            <Route path='/E-Trone/' element={<HomePage />} />
+            <Route path='/' element={<HomePage />} />
             <Route path='/Computers&Tablets' element={<ComputersAndTablets/>}/>
             <Route path='/CellPhones' element={<CellPhones/>} />
             <Route path='/Audio' element={<Audio/>} />
