@@ -11,6 +11,7 @@ import { Audio } from './components/Audio/Audio';
 import { CarElectronics } from './components/CarElectronics/CarElectronics';
 import { WatchesPage } from './components/Watches/WatchesPage';
 import { ProductPage} from './components/ProductPage/ProductPage'
+import { ScrollToTop } from './Routes/ScrollToTop';
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
   return (
       <div className='wrap'>
         <Router>
+          <ScrollToTop />
         <Header />
         <Navigation />
         <Routes>
