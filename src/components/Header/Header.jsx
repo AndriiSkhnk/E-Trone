@@ -20,10 +20,10 @@ export const Header = () => {
                 </div>
                 <div className="header__btns">
                     <div className="cart">
-                        <a href=""><img src="./images/Header/cart-icon.svg" alt="cart" /></a>
+                        <Link to={'/Cart'}><img src="./images/Header/cart-icon.svg" alt="cart" /></Link>
                     </div>
                     <div className="account">
-                        <a href=""><img src="./images/Header/acc-icon.svg" alt="account" /></a>
+                        <Link to={'/account'}><img src="./images/Header/acc-icon.svg" alt="account" /></Link>
                     </div>
                 </div>
             </div>

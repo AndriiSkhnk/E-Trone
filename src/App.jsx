@@ -12,6 +12,7 @@ import { CarElectronics } from './components/CarElectronics/CarElectronics';
 import { WatchesPage } from './components/Watches/WatchesPage';
 import { ProductPage} from './components/ProductPage/ProductPage'
 import { ScrollToTop } from './Routes/ScrollToTop';
+import { ErrorPage } from './components/ErrorPage/ErrorPage';
 
 function App() {
 
@@ -30,6 +31,7 @@ function App() {
             <Route path='/CarElectronics' element={<CarElectronics/>} />
             <Route path='/Smartwatches' element={<WatchesPage/>} />
             <Route path='/product/:source/:id' element={<ProductPage/>}/>
+            <Route path='*' element={<ErrorPage/>}/>
         </Routes>
         <Footer />  
         </Router>

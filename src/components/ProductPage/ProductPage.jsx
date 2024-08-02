@@ -1,6 +1,6 @@
 // ProductPage.js
 import React from 'react';
-import { useParams } from 'react-router-dom'; 
+import { Link, useParams } from 'react-router-dom'; 
 import { dealsList } from '../../assets/dealsList';
 import { AudioList } from '../../assets/AudioList';
 import { CarElectronicsList } from '../../assets/CarElectronicsList'; 
@@ -74,10 +74,10 @@ export const ProductPage = () => {
                             </button>
                         </div>
                     </div>
-                    <button className="addToCart-btn">
+                    <Link to={"/Cart"} className="addToCart-btn">
                         <img src="./images/Header/cart-icon.svg" alt="Add To Cart" />
                         <p>Add to Cart</p>
-                    </button>
+                    </Link>
                 </div>
             </div>
         </div>

@@ -1,0 +1,22 @@
+.error {
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.error__text {
+    text-align: center;
+}
+
+.error__text h1 {
+    font-size: 100px;
+    color: #BE2D8D;
+}
+
+.error__text h2 {
+    margin-top: 10px;
+    font-size: 24px;
+    color: #8BBCE9;
+}

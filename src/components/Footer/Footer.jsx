@@ -1,5 +1,6 @@
 import React from 'react'
 import './Footer.css'
+import { Link } from 'react-router-dom'
 
 export const Footer = () => {
   return (
@@ -11,12 +12,12 @@ export const Footer = () => {
                     <div className="footer-links">
                         <div className="link-columns">
                             <div className="links_column-1">
-                                <a href="#">Computers & Tablets</a>
-                                <a href="#">Cell Phones</a>
-                                <a href="#">Audio</a>
+                                <Link to={'/Computers&Tablets'}>Computers & Tablets</Link>
+                                <Link to={'/CellPhones'}>Cell Phones</Link>
+                                <Link to={'/Audio'}>Audio</Link>
                             </div>
                             <div className="links_column-2">
-                                <a href="#">Smartwatches</a>
+                                <Link to={'/Smartwatches'}>Smartwatches</Link>
                             </div>
                         </div>
                     </div>
@@ -24,31 +25,31 @@ export const Footer = () => {
                 <div className="customer-service">
                     <div className="footer-title">Customer Service:</div>
                     <div className="footer-links">
-                        <a href="#">Contact Us</a>
-                        <a href="#">FAQs</a>
-                        <a href="#">Return Policy</a>
+                        <Link to={'/Contact'}>Contact Us</Link>
+                        <Link to={'/FAQs'}>FAQs</Link>
+                        <Link to={'/Return'}>Return Policy</Link>
                     </div>
                 </div>
                 <div className="about">
                     <div className="footer-title">About Us:</div>
                     <div className="footer-links">
-                        <a href="#">Our Story</a>
-                        <a href="#">Privacy Policy</a>
+                        <Link to={'/Story'}>Our Story</Link>
+                        <Link to={'/Privacy'}>Privacy Policy</Link>
                     </div>
                 </div>
                 <div className="account">
                     <div className="footer-title">Account:</div>
                     <div className="footer-links">
-                        <a href="#">Account Login</a>
-                        <a href="#">Create Account</a>
+                        <Link to={'/Login'}>Account Login</Link>
+                        <Link to={'/Create'}>Create Account</Link>
                     </div>
                 </div>
                 <div className="connect">
                     <div className="footer-title">Connect With Us:</div>
                     <div className="footer-links">
                         <div className="social-links">
-                            <a href=""><img src="./images/Footer/facebook.svg" alt="facebook" /></a>
-                            <a href=""><img src="./images/Footer/twitter.svg" alt="twitter" /></a>
+                            <a href="#"><img src="./images/Footer/facebook.svg" alt="facebook" /></a>
+                            <a href="#"><img src="./images/Footer/twitter.svg" alt="twitter" /></a>
                         </div>
                     </div>
                 </div>
