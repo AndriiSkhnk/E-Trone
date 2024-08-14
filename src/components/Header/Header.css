@@ -37,10 +37,9 @@ header {
 
 .search-button {
     background-color: #fff;
-    width: 40px;
-    height: 40px;
+    width: 41px;
+    height: 41px;
     border: none;
-    margin-right: 1px;
     border-radius: 0px 5px 5px 0px;
     margin-left: -4px;
     cursor: pointer;
